@@ -1,0 +1,57 @@
+.gamefield{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+section{
+    height: 440px;
+    width: 440px;
+    display: flex;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    /* justify-content: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.gameover{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gameover>p{
+    font-family: 'Hind', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+.score-food p, .remove-score p{
+    font-family: 'Hind', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+.remove-score p{
+    margin-right: 5px;
+}
+.head-snake{
+    background-color: black;
+}
+.button-repeat{
+    background-color: plum;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+.button-repeat:hover{
+    box-shadow: 2px 2.1px 2.1px 2px;
+}
